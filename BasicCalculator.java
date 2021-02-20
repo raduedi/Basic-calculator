@@ -26,22 +26,22 @@ public class BasicCalculator {
     }
 
     public void getAdditionResult() {
-        System.out.println("The sum result is  : " + (firstNumber + secondNumber));
+        System.out.println("The sum result is  : " + (this.firstNumber + this.secondNumber));
     }
 
     public void getSubtractionResult() {
-        System.out.println("The subtraction result is : " + (firstNumber - secondNumber));
+        System.out.println("The subtraction result is : " + (this.firstNumber - this.secondNumber));
     }
 
     public void getMultiplicationResult() {
-        System.out.println("The multiplication result is : " + (firstNumber * secondNumber));
+        System.out.println("The multiplication result is : " + (this.firstNumber * this.secondNumber));
     }
 
     public void getDivisionResult() {
         if (secondNumber == 0) {
             System.out.println("The division result is :" + 0 );
         } else {
-            System.out.println("The division result is  : " + (firstNumber/secondNumber));
+            System.out.println("The division result is  : " + (this.firstNumber / this.secondNumber));
         }
     }
 }
